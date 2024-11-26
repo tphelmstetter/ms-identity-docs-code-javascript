@@ -6,9 +6,9 @@
 const msalConfig = {
     auth: {
 
-        clientId: "Enter_the_Application_Id_Here", // This is the ONLY mandatory field that you need to supply
+        clientId: "84bb72cf-fefe-44ce-92db-960bf760cc68", //process.env.CLIENT_ID, // This is the ONLY mandatory field that you need to supply
         // WORKFORCE TENANT
-        authority: "https://login.microsoftonline.com/Enter_the_Tenant_Info_Here", //  Replace the placeholder with your tenant info
+        authority: `https://login.microsoftonline.com/945c199a-83a2-4e80-9f8c-5a91be5752dd`, //  Replace the placeholder with your tenant info
         // EXTERNAL TENANT
         // authority: "https://Enter_the_Tenant_Subdomain_Here.ciamlogin.com/", // Replace the placeholder with your tenant subdomain
         redirectUri: '/', // You must register this URI on App Registration. Defaults to window.location.href e.g. http://localhost:3000/
